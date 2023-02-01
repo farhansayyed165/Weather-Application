@@ -1,10 +1,16 @@
 import './App.css';
-import Base from './components/base';
+import Search from './components/search/search';
 
 function App() {
+
+  function handleOnSearchChange(searchData){
+    console.log(searchData);
+  }
+
+
   return (
     <div className="App">
-      <Base/>
+      <Search onSearchChange={handleOnSearchChange}/>
     </div>
   );
 }
