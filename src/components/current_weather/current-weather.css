@@ -48,3 +48,24 @@
     width: 100%;
     padding-left: 20px;
 }
+
+.first  {
+    margin-bottom: 5px;
+}
+
+.parameter-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parameter-label{
+    text-align: left;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.parameter-value{
+    text-align: right;
+    font-weight: 600;
+    font-size: 13px;
+}
