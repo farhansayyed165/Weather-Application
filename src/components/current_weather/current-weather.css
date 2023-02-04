@@ -1,60 +1,73 @@
-.weather {
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 10px -2px 20px 2px rgb(0 0 0/0.3);
-    margin: 20px auto 0 auto;
-    color: white;
-    background-color: rgb(61, 61, 61);
-    padding: 0 20px 20px 20px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600');
 
-.top,
-.bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.city {
+*{
     margin: 0;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    padding:0%;
+}
+
+.container{
+    margin: 50px;
+    font-family: 'Open sans', sans-serif;
+    width: 70vw;
+    margin-inline:auto ;
+}
+
+
+.font-weight-600{
     font-weight: 600;
-    line-height: 1;
-    letter-spacing: 1px;
 }
 
-.weather-description {
-    font-weight: 400;
-    font-size: 12px;
-    margin-top: 8px;
-    line-height: 1;
-    text-transform: uppercase;
+.font-weight-300{
+    font-weight: 300;
 }
 
-.weather-icon {
-    width: 100px;
+
+.weather{
+    display: flex;
+    justify-content: center;
 }
 
-.temperature{
-    font-family: 'Roboto',sans-serif;
-     font-weight: 600;
-     font-size: 70px;
-     width: auto;
-     letter-spacing: -4px;
-     margin: 10px 0;
+.city{
+    font-weight: 600;
+    padding-left: 20px;
+    font-size: 30px;
 }
+
+.current-weather{
+display: flex;
+width: 600px;
+}
+
+
+.desc-box{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+
+.temp{
+    font-size: 60px;
+    font-weight: 600;
+}
+
 
 .details{
-    width: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-left: 20px;
-    line-height: 1.4;
 }
 
-.first  {
-    margin-bottom: 5px;
+.parameter-row{
+    display: flex;
+    justify-content: space-between;
 }
-
+.parameter-value{
+    text-align: right;
+}
 .parameter-row{
     display: flex;
     justify-content: space-between;
