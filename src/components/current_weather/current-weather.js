@@ -30,7 +30,7 @@ const CurrentWeather = ({data}) => {
                         <span className="parameter-label">Pressure</span>
                         <span className="parameter-value">{data.main.pressure} hPa</span>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
     );
