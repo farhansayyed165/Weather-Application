@@ -8,7 +8,7 @@ const Forecast = ({ data }) => {
   const forecastDays = WEEK_DAYS.slice(dayInAWeek, WEEK_DAYS.length).concat(WEEK_DAYS.slice(0, dayInAWeek));
   return (
     <div>
-        <h1 className='font-weight-600'>Daily</h1>
+        <h1 className='daily font-weight-600'>Daily</h1>
         <div className='card-section'>
         {data.list.splice(0, 7).map((item, idx) => (
             <div className="future" key={idx}>
