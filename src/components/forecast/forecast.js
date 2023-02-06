@@ -16,16 +16,12 @@ const Forecast = ({ data }) => {
                     <div className="day font-weight-600">{forecastDays[idx]}</div>
                     <img src={`icons/${item.weather[0].icon}.png`} alt="vv" />
                     <div className="text">
-                        <p className='desc font-weight-600'>{item.weather[0].description}</p>
-                        <p className="min-temp font-weight-600">{Math.floor(item.main.temp_max)}°C - {Math.round(item.main.temp_min)}°C</p>
+                        <p className='desc'>{item.weather[0].description}</p>
+                        <p className="min-max-temp"><span className="max-temp font-weight-600">{Math.round(item.main.temp_max)}°C</span> <span className="min-temp">{Math.floor(item.main.temp_min)}°C</span></p>
                     </div>
                 </div>
                 <div className="future-details">
                     <div className="future-container">
-                        <div className="future-row">
-                            <span className="future-label">Feels Like:</span>
-                            <span className="future-value font-weight-600">{item.main.feels_like}°C</span>
-                        </div>
                         <div className="future-row">
                             <span className="future-label">Wind:</span>
                             <span className="future-value font-weight-600">{item.wind.speed} m/s</span>
