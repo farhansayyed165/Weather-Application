@@ -4,13 +4,16 @@
 
 .card-section{
     display: grid;
-    grid-gap: 30px;
-    grid-template-columns: repeat(5, 170px);
+    grid-column-gap: 67px;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(4, 200px);
+    width: 70vw;
+    margin:auto;
 }
 
 .future{
     position :relative;
-    width: 170px;
+    width: 200px;
     font-family: 'Open sans', sans-serif;
     background-color: white;
     border-radius: 10px;
@@ -76,9 +79,9 @@
 .future-details{
     opacity: 0;
     position: absolute;
-    top: 50px;
+    top: 70px;
     transform: translateX(-15px);
-    margin-left: 15px;
+    margin-left: 30px;
     font-size: 14px;
     width: 170px;
     transition: all 300ms ease-in;
