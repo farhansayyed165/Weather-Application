@@ -2,7 +2,7 @@
 
 This an application bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
-### npm install
+### `npm install`
 Installs all the dependecies needed
 
 ### `npm start`
