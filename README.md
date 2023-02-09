@@ -31,5 +31,5 @@ The <strong>Search</strong> component uses a wrapper [`Async Pagianate`](https:/
  
 Our app pulls city names and location Cordinates(Lattitude and Longitutde) from <strong>GeoDB Cities API</strong> as they are being typed in the search box and displays similar city names as suggestions. Once the city name is submited, the city name passes on to the `Current` and `Future Component`
 
-Once we have the city name and cordinates, we fetch weather reports both <strong>current and future</strong>, and using `States` we can display the details of the reports.
+Once we have the city name and cordinates, we fetch weather reports both <strong>current and future</strong> from <strong>Open Weather API</strong>, and using `States` we can display the details of the reports.
 
