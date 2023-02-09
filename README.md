@@ -9,6 +9,7 @@ This an application bootstrapped with [Create React App](https://github.com/face
 - Forecasts the weather for upcoming week
 <br>
 <!--Image will come here-->
+<img src="https://github.com/farhansayyed165/Weather-Application-/blob/main/Final_img.jpg">
 
 ## APIs used:
 [GeoDB Cities API](https://rapidapi.com/wirefreethought/api/geodb-cities)
