@@ -1,3 +1,3 @@
-<img src="https://github.com/farhansayyed165/Weather-Application-/blob/main/no%20chartjs.jpg">
+# Web Application
 
-<h1>Hi Mom!<h1/>
+This an application bootstrapped with  with [Create React App](https://github.com/facebook/create-react-app). 
