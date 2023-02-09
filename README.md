@@ -2,6 +2,18 @@
 
 This an application bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
+### npm install
+Installs all the dependecies needed
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+
 
 #### It meets all the requirements for a Web Application:
 - Has a search bar for searching by city name and city suggestions
