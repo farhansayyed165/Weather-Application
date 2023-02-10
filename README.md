@@ -1,4 +1,4 @@
-# A simple Weather Web Application
+# A Simple Weather Web Application
 
 This an application bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
