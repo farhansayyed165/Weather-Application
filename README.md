@@ -1,6 +1,10 @@
 # A Simple Weather Web Application
 
+#### Hosted here: https://farhansayyed165.github.io/Weather-Application
+
 This an application bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+
+
 
 #### `npm install`
 Installs all the dependecies needed
@@ -12,8 +16,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+<br>
 
-
+## Overview
 ### It meets all the requirements for a Web Application:
 - Has a search bar for searching by city name and city suggestions
 - Displays current weather conditions and provides additional details.
@@ -21,17 +26,7 @@ You may also see any lint errors in the console.
 
 <!--Image will come here-->
 <img src="https://github.com/farhansayyed165/Weather-Application-/blob/main/Final_img.jpg">
-<br>
 
-## APIs used:
-[<strong>GeoDB Cities API</strong>](https://rapidapi.com/wirefreethought/api/geodb-cities): For getting city names and city coordinates(Longitutde and Latitude)
-
-[<strong>Open Weather API</strong>](https://openweathermap.org/current): For getting weather reports
-<br>
-<br>
-
-
-## Overview
 This App contains three components:
 - Search Component
 - Current Weather Component
@@ -43,4 +38,16 @@ The <strong>Search</strong> component uses a wrapper [`AsyncPaginate`](https://g
 Our app pulls city names and location Cordinates(Lattitude and Longitutde) from <strong>GeoDB Cities API</strong> as they are being typed in the search box and displays similar city names as suggestions. Once the city name is submited, the city name passes on to the `Current` and `Future Component`
 
 Once we have the city name and cordinates, we fetch weather reports both <strong>current and future</strong> from <strong>Open Weather API</strong>, and using `States` we can display the details of the reports.
+
+
+
+<br>
+
+## APIs used:
+[<strong>GeoDB Cities API</strong>](https://rapidapi.com/wirefreethought/api/geodb-cities): For getting city names and city coordinates(Longitutde and Latitude)
+
+[<strong>Open Weather API</strong>](https://openweathermap.org/current): For getting weather reports
+<br>
+<br>
+
 
