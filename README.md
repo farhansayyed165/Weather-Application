@@ -9,13 +9,12 @@ Installs all the dependecies needed
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 
 
-#### It meets all the requirements for a Web Application:
+### It meets all the requirements for a Web Application:
 - Has a search bar for searching by city name and city suggestions
 - Displays current weather conditions and provides additional details.
 - Forecasts the weather for upcoming week
