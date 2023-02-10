@@ -38,7 +38,7 @@ This App contains three components:
 - Future Forecast Component
 
 ### How does this work?
-The <strong>Search</strong> component uses a wrapper [`Async Pagianate`](https://github.com/vtaits/react-select-async-paginate/tree/master/packages/react-select-async-paginate) which helps making suggestions easy
+The <strong>Search</strong> component uses a wrapper [`AsyncPaginate`](https://github.com/vtaits/react-select-async-paginate/tree/master/packages/react-select-async-paginate) which helps making suggestions easy
  
 Our app pulls city names and location Cordinates(Lattitude and Longitutde) from <strong>GeoDB Cities API</strong> as they are being typed in the search box and displays similar city names as suggestions. Once the city name is submited, the city name passes on to the `Current` and `Future Component`
 
