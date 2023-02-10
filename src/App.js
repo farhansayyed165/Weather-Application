@@ -24,15 +24,14 @@ function App() {
 
         setCurrentWeather({ city: searchData.label, ...weatherResponse });
         setforcastWeather({ city: searchData.label, ...forecastResponse });
-        console.log("dont set weather");
       })
       .catch((err) => console.log(err));
   }
 
 
 
-  console.log(currentWeather);
-  console.log(forecastWeather);
+  // console.log(currentWeather);
+  // console.log(forecastWeather);
 
 
   return (
@@ -41,9 +40,12 @@ function App() {
       <div className="container">
         <Search onSearchChange={handleOnSearchChange} />
         {currentWeather && <CurrentWeather data={currentWeather} />}
-        {forecastWeather && <Forecast data={forecastWeather} currentData={currentWeather} />}
+      <div className='chart'>
+      {forecastWeather && <LineChart  forecastData={forecastWeather} /> }
       </div>
-      {forecastWeather && <LineChart forecastData={forecastWeather} />}
+        {forecastWeather && <Forecast data={forecastWeather} currentData={currentWeather} />}
+        
+      </div>
 
     </div>
   );
