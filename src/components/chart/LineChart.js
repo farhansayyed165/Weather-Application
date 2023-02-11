@@ -37,8 +37,19 @@ const LineChart = ({ forecastData }) => {
         plugins: {
             scales:{
             y:{
+                begiAtZero:false,
+                grid: {
+                    display: false
+                 },
                 min: Math.min(...fd)-0.5,
-                max: Math.max(...fd)+0.5}
+                max: Math.max(...fd)+0.5
+            },
+            x:{
+                grid: {
+                    display: false
+                 }
+            }
+            
         }
     }}
     return (
