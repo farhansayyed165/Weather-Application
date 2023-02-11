@@ -44,7 +44,6 @@ function App() {
       {forecastWeather && <LineChart  forecastData={forecastWeather} /> }
       </div>
         {forecastWeather && <Forecast data={forecastWeather} currentData={currentWeather} />}
-        
       </div>
 
     </div>

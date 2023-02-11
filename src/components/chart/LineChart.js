@@ -23,13 +23,13 @@ const LineChart = ({ forecastData }) => {
                 label: 'Future Temperature',
                 data: fd,
                 // you can set indiviual colors for each bar
-                backgroundColor:"rgba(251, 211, 190)",
+                backgroundColor:"rgba(251, 211, 190,0.5)",
                 borderColor: "black",
-                pointborderColor: "aqua",
+                pointborderColor: "red",
                 tension: 0.3,
                 pointHoverRadius: 10,
                 customCanvasBackgroundColor:"red",
-                fill:1,
+                fill:true,
             }
         ]
     }
