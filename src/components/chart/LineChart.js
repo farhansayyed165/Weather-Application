@@ -37,7 +37,6 @@ const LineChart = ({ forecastData }) => {
         plugins: {
             scales:{
             y:{
-                begiAtZero:false,
                 grid: {
                     display: false
                  },
@@ -47,7 +46,7 @@ const LineChart = ({ forecastData }) => {
             x:{
                 grid: {
                     display: false
-                 }
+                 }  
             }
             
         }
