@@ -1,5 +1,5 @@
 import React from "react";
-import CurrentWeather from "../current_weather/current-weather";
+
 import "./forecast.css";
 
 const WEEK_DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];

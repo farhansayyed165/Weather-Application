@@ -20,41 +20,56 @@ const LineChart = ({ forecastData }) => {
         // datasets is an array of objects where each object represents a set of data to display corresponding to the labels above. for brevity, we'll keep it at one object
         datasets: [
             {
-                label: 'Future Temperature',
+                label: 'Temperature',
                 data: fd,
                 // you can set indiviual colors for each bar
-                backgroundColor:"rgba(251, 211, 190,0.5)",
-                borderColor: "black",
+                backgroundColor:"rgba(242, 153, 74,0.2)",
+                borderColor: "rgba(242, 153, 74,0.7)",
                 pointborderColor: "red",
                 tension: 0.3,
                 pointHoverRadius: 10,
-                customCanvasBackgroundColor:"red",
                 fill:true,
             }
         ]
     }
     const options = {
+        maintainAspectRatio: false,
+        interaction:{
+            mode:'index',
+            intersect:'false',
+            axis:'x',
+        },
+
+        scales:{
+        y:{
+
+            begiAtZero:true,
+            grid: {
+                drawOnChartArea:false,
+                drawBorder:false,
+             },
+            min: Math.min(...fd)-0.5,
+            max: Math.max(...fd)+0.5
+        },
+        x:{
+            grid: {
+                drawBorder:false,
+                borderDash:[6],
+                border:false,
+             },
+
+        },
+
+    },
         plugins: {
-            scales:{
-            y:{
-                begiAtZero:false,
-                grid: {
-                    display: false
-                 },
-                min: Math.min(...fd)-0.5,
-                max: Math.max(...fd)+0.5
+            tooltip:{
+                enabled:true,
             },
-            x:{
-                grid: {
-                    display: false
-                 }
-            }
-            
-        }
+            legend:false,
     }}
     return (
         <div>
-            <Line data={data} options={options} height={100}/>
+            <Line data={data} options={options} height={300} />
         </div>
     );
 }

@@ -4,8 +4,10 @@ import './current-weather.css'
 const CurrentWeather = ({data}) => {
   console.log(data.weather[0].icon)
     return (
-        <div className='weather'>
-            <p className="city font-weight-600">{data.city}</p>
+      <div className='current-weather-container'>
+
+          <p className="city font-weight-600">{data.city}</p>
+      <div className='weather'>
         <div className="current-weather">
         <img src={process.env.PUBLIC_URL + `/icons/${data.weather[0].icon}.png`} alt="weather icon" className='weather-icon' />
           <div className="desc-box">
@@ -34,6 +36,7 @@ const CurrentWeather = ({data}) => {
           </div>
         </div>
         </div>
+      </div>
     );
     }
 

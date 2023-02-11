@@ -5,13 +5,6 @@
     padding:0%;
 }
 
-.container{
-    margin: 50px;
-    font-family: 'Open sans', sans-serif;
-    width: 70vw;
-    margin-inline:auto ;
-}
-
 
 .font-weight-600{
     font-weight: 600;
@@ -21,7 +14,14 @@
     font-weight: 300;
 }
 
-
+.current-weather-container{
+    background-color: rgb(243, 243, 243);
+    padding-block: 15px;
+    margin-block: 10px;
+    border-radius: 10px;
+    width: 1000px;
+    margin-inline: auto;
+}
 .weather{
     display: flex;
     justify-content: center;
@@ -29,14 +29,15 @@
 
 .city{
     font-weight: 600;
-    padding-left: 20px;
-    font-size: 30px;
+    padding-left: clamp(5vh,2rem,10vh);
+    font-size: 35px;
 }
 
 .current-weather{
 display: flex;
-width: 600px;
+/* width: 600px; */
 margin-top: 20px;
+margin-bottom: 20px;
 }
 
 
