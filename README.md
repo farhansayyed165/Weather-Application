@@ -25,7 +25,8 @@ You may also see any lint errors in the console.
 - Forecasts the weather for upcoming week
 
 <!--Image will come here-->
-<img src="https://github.com/farhansayyed165/Weather-Application-/blob/main/Final_img.jpg">
+<img src="https://github.com/farhansayyed165/Weather-Application/blob/main/Updated_Readme_img.jpg">
+<img src="https://github.com/farhansayyed165/Weather-Application/blob/main/Updated_Readme_img2.jpg">
 
 This App contains three components:
 - Search Component
