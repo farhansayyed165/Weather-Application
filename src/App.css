@@ -1,19 +1,27 @@
 html{
-  background-color: rgb(231, 231, 231);
+  background-color: hsl(0, 3%, 31%);
   min-height: 100vh;
   /* background-color: black; */
 }
 
+
+.title{
+  padding-top: 2rem;
+}
 
 .main-container{
   margin: 50px;
   font-family: 'Open sans', sans-serif;
   width: 70vw;
   margin-inline:auto ;
-  background-color: white;
+  background-color: hsl(29, 85%, 92%);
   padding-inline: 20px;
   border-radius: 10px;
   padding-bottom: 20px;
+}
+hr.solid {
+  border-top: 3px solid black;
+  transform: translateY(50px);
 }
 
 
@@ -30,12 +38,13 @@ html{
 
 
 .search{
-  padding-top: 2rem;
+  padding-top: 0.5rem;
   margin-block: 1rem;
 }
 .chart{
   max-width: 70vw;
   min-height: 300px;
   margin-inline:auto;
+  /* background-color: hsl(9, 50%, 97%); */
   
 }

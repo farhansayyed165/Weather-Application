@@ -48,7 +48,7 @@ const LineChart = ({ forecastData }) => {
                 drawOnChartArea:false,
                 drawBorder:false,
              },
-            min: Math.min(...fd)-0.5,
+            min: Math.min(...fd),
             max: Math.max(...fd)+0.5
         },
         x:{

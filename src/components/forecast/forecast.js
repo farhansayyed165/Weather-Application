@@ -9,7 +9,7 @@ const Forecast = ({ data, currentData }) => {
   const forecastDays = WEEK_DAYS.slice(dayInAWeek, WEEK_DAYS.length).concat(WEEK_DAYS.slice(0, dayInAWeek));
   return (
     <div className="future-weather">
-        <h1 className='daily font-weight-600'>Future Data</h1>
+        <h1 className='daily font-weight-600 future-heading'>Future Data</h1>
         <div className='card-section'>
         <div className="future">
                 <div className="main-future">

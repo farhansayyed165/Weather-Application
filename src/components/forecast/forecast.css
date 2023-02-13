@@ -15,6 +15,10 @@
     margin:auto;
 }
 
+.future-heading{
+    margin-inline: 25px;
+}
+
 .future{
     position :relative;
     width: 200px;

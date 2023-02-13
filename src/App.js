@@ -38,11 +38,15 @@ function App() {
     <div>
 
       <div className="main-container">
+        <h2 className='title'>Search for a city</h2>
         <Search onSearchChange={handleOnSearchChange} />
+        <div className="current-container">
         {currentWeather && <CurrentWeather data={currentWeather} />}
       {forecastWeather && <div className='chart'>
       {forecastWeather && <LineChart  forecastData={forecastWeather} /> }
+        <hr className='solid'></hr>
       </div>}
+        </div>
         {forecastWeather && <Forecast data={forecastWeather} currentData={currentWeather} />}
       </div>
 

@@ -14,8 +14,16 @@
     font-weight: 300;
 }
 
+.current-container{
+    height: 100%;
+    background-color:  white;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+    box-shadow: 2px 2px 2px rgba(0 0 0 / 0.4);
+}
+
 .current-weather-container{
-    background-color: rgb(243, 243, 243);
+    /* background-color: hsl(9, 50%, 97%); */
     padding-block: 15px;
     margin-block: 10px;
     border-radius: 10px;
